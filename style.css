@@ -1,0 +1,43 @@
+#kvadrats 
+{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#background
+{
+    background-image: url('raitis.jpg'); 
+    background-repeat: repeat;
+
+    width: 1920px;
+    height: 1080px;
+    background-size: contain;
+    background-color: cadetblue;
+    position: relative;
+    left: 10%;
+}
+
+button
+{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    height: 50px;
+    width: 100px;
+    top: 10px;
+    left: 10%;
+    color: chartreuse;
+    background-color: orange;
+    font-size: x-large;
+}
+
+html 
+{   
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
